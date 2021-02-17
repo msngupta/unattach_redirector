@@ -1,5 +1,5 @@
 # unattach_redirector
-Google appengine app to redirect the file_name links to a preset base_url.
+Google appengine app to redirect the file_name links in unattached emails to a preset base_url. Check https://github.com/msngupta/unattach for more details.
 * Create an appengine app with project name (unattach)
 * Clone the repository and deploy using following command 
 ```gcloud app deploy --project=unattach```
