@@ -1,5 +1,8 @@
 # unattach_redirector
-Redirects the file_name links to a preset base_url
+Google appengine app to redirect the file_name links to a preset base_url.
+* Create an appengine app with project name (unattach)
+* Clone the repository and deploy using following command 
+```gcloud app deploy --project=unattach```
 
 ## File linking
 * The file names (say abcd.xyz) in the modified emails are linked to https://unattach.appspot.com/get_file/abcd.xyz
